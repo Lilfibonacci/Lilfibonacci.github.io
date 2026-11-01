@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1326" />
+      <stop offset="50%" stop-color="#090D1A" />
+      <stop offset="100%" stop-color="#05070E" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+
+    <!-- Left Bracket Gradient -->
+    <linearGradient id="leftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+
+    <!-- Right Bracket Gradient -->
+    <linearGradient id="rightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <!-- Slash Gradient -->
+    <linearGradient id="slashGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Squircle with glowing border -->
+  <rect x="5" y="5" width="118" height="118" rx="28" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="4.5" />
+
+  <!-- Left Chevron < -->
+  <path d="M 45 42 L 24 64 L 45 86" fill="none" stroke="url(#leftGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Center Slash / -->
+  <line x1="68" y1="36" x2="60" y2="92" stroke="url(#slashGrad)" stroke-width="10" stroke-linecap="round" />
+
+  <!-- Right Chevron > -->
+  <path d="M 83 42 L 104 64 L 83 86" fill="none" stroke="url(#rightGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
