@@ -1,0 +1,241 @@
+{
+  "cvUrl": "assets/assets/cv/resume.pdf",
+  "email": "towhidmgholami@gmail.com",
+  "socials": {
+    "github": "https://github.com/Lilfibonacci",
+    "linkedin": "https://linkedin.com/in/yourname",
+    "telegram": "https://t.me/T0WHID"
+  },
+  "skills": [
+    "Flutter",
+    "Dart",
+    "Bloc",
+    "Clean Architecture",
+    "PocketBase",
+    "Hive",
+    "REST API & Dio",
+    "TOTP / 2FA Security",
+    "Provider",
+    "Git & GitHub"
+  ],
+  "en": {
+    "name": "Towhid Gholami",
+    "title": "junior Flutter Developer",
+    "tagline": "I build fast, beautiful cross-platform apps.",
+    "about": "Flutter developer with about one year of hands-on experience building cross-platform mobile apps in Dart. I design apps with Clean Architecture and BLoC am looking for a junior-to-mid Flutter role, remote or on-site, where I can keep growing toward senior level.",
+    "projects": [
+      {
+        "id": "hamnava",
+        "title": "HamNava",
+        "summary": "Modern, real-time & self-hosted chat application powered by Flutter & PocketBase.",
+        "description": "HamNava is a secure, fast, and lightweight messaging app designed for zero-dependency communications without centralized servers. Built with Clean Architecture and BLoC, it supports self-hosted PocketBase backends (local, VPS, or cloud), instant private & group chat, friend discovery, automatic server file cleanup, and dark mode UI.",
+        "tags": [
+          "Flutter",
+          "PocketBase",
+          "Bloc",
+          "Clean Architecture",
+          "GoRouter",
+          "GetIt"
+        ],
+        "url": "https://github.com/Lilfibonacci/HamNava"
+      },
+      {
+        "id": "pasban",
+        "title": "PasBan Authenticator",
+        "summary": "Secure, modern & open-source 2FA authenticator for Mobile and Chrome Extension.",
+        "description": "A cross-platform Two-Factor Authentication (2FA) application built with Flutter, functioning both as a mobile app and an offline Manifest V3 Chrome Extension. Generates 30-second TOTP codes (RFC 6238) with animated countdown timer. Features biometric lock (Fingerprint / Face ID), QR scanner via camera and image upload, hardware keystore encryption, and 100% offline operation.",
+        "tags": [
+          "Flutter",
+          "Bloc",
+          "Clean Architecture",
+          "TOTP / 2FA",
+          "Chrome Extension",
+          "Biometrics"
+        ],
+        "url": "https://github.com/Lilfibonacci/PasBan"
+      },
+      {
+        "id": "mediaflow",
+        "title": "MediaFlow",
+        "summary": "Sleek and efficient video downloader application built with Flutter.",
+        "description": "MediaFlow is a high-performance Flutter mobile application designed for downloading videos directly from YouTube with speed and simplicity. Implemented using Provider for state management, Dio for stream downloading, and path_provider for filesystem storage. Features an in-app download manager, progress tracking, and intuitive UI.",
+        "tags": [
+          "Flutter",
+          "Provider",
+          "Dio",
+          "Path Provider",
+          "Material 3"
+        ],
+        "url": "https://github.com/Lilfibonacci/mediaFlow"
+      },
+      {
+        "id": "cryptocurrencyprice",
+        "title": "Crypto Currency Price",
+        "summary": "Real-time cryptocurrency tracking app demonstrating Clean Architecture.",
+        "description": "A structured mobile application built to demonstrate enterprise-grade Flutter architecture and real-world REST API integration. Strictly adheres to Clean Architecture dividing code into Presentation (Bloc), Domain (Entities, Use Cases), and Data (Remote Data Sources, Repositories) layers following SOLID design principles for high testability and maintainability.",
+        "tags": [
+          "Flutter",
+          "Clean Architecture",
+          "Bloc",
+          "Dio",
+          "REST API"
+        ],
+        "url": "https://github.com/Lilfibonacci/cryptoCurrencyPrice"
+      },
+      {
+        "id": "shopingapp",
+        "title": "Shopping App",
+        "summary": "E-commerce mobile app with product catalog and local cart persistence.",
+        "description": "A modern e-commerce mobile application developed with Flutter. Demonstrates clean UI design, BLoC state management, API data consumption with Dio, and persistent offline cart storage using Hive and SharedPreferences. Features responsive product listing grids, category navigation, product details, and full cart flow.",
+        "tags": [
+          "Flutter",
+          "Bloc",
+          "Hive",
+          "Dio",
+          "SharedPreferences"
+        ],
+        "url": "https://github.com/Lilfibonacci/shopingapp"
+      },
+      {
+        "id": "to-do-app",
+        "title": "To-Do & Notes App",
+        "summary": "Lightweight task and note manager powered by Hive local database.",
+        "description": "An intuitive task and note management app built with Flutter and Hive NoSQL database for rapid local data persistence. Features customizable task categories/types, task scheduling with custom time picker, status tracking with interactive checkboxes, and complete CRUD operations with zero latency.",
+        "tags": [
+          "Flutter",
+          "Hive",
+          "NoSQL",
+          "Custom Widgets",
+          "Local Storage"
+        ],
+        "url": "https://github.com/Lilfibonacci/to-do-app"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2024 — Present",
+        "role": "Flutter Developer",
+        "place": "Freelance",
+        "detail": "Developing personal and freelance mobile applications."
+      }
+    ],
+    "education": [
+      {
+        "period": "2022 — 2026",
+        "role": "B.Sc. in Computer Engineering",
+        "place": "Islamic Azad University, Kermanshah Branch",
+        "detail": ""
+      }
+    ]
+  },
+  "fa": {
+    "name": "توحید غلامی",
+    "title": "توسعه‌دهنده جونیور فلاتر",
+    "tagline": "اپلیکیشن‌های سریع و زیبای کراس پلتفرم می‌سازم.",
+    "about": "توسعه‌دهنده فلاتر با حدود یک سال تجربه عملی در ساخت اپلیکیشن‌های موبایل کراس‌پلتفرم با دارت. برنامه‌ها را با معماری تمیز (Clean Architecture) و BLoC پیاده‌سازی می‌کنم و به دنبال موقعیت شغلی فلاتر در سطح جونیور تا میدلول (Junior to Mid)، به صورت ریموت یا حضوری هستم تا مسیر رشد حرفه‌ای‌ام را به سمت سطح سنیور ادامه دهم.",
+    "projects": [
+      {
+        "id": "hamnava",
+        "title": "هم‌نوا (HamNava)",
+        "summary": "پیام‌رسان بلادرنگ، مدرن و سلف‌هاست (Self-hosted) با فلاتر و پاکت‌بیس.",
+        "description": "هم‌نوا یک اپلیکیشن پیام‌رسان امن، مدرن و متن‌باز است که قابلیت میزبانی بک‌اند را به صورت سلف‌هاست (روی سیستم شخصی، سرور لینوکس یا سرویس‌های ابری) با پاکت‌بیس (PocketBase) فراهم می‌کند. این پروژه با معماری تمیز (Clean Architecture) و BLoC پیاده‌سازی شده و امکاناتی نظیر چت آنی، مدیریت دوستان، تم دارک و کارکرد پایدار با حداقل وابستگی اینترنتی را ارائه می‌دهد.",
+        "tags": [
+          "Flutter",
+          "PocketBase",
+          "Bloc",
+          "Clean Architecture",
+          "GoRouter",
+          "GetIt"
+        ],
+        "url": "https://github.com/Lilfibonacci/HamNava"
+      },
+      {
+        "id": "pasban",
+        "title": "پاس‌بان (PasBan)",
+        "summary": "اپلیکیشن امن احراز هویت دومرحله‌ای (2FA) برای موبایل و افزونه کروم.",
+        "description": "پاس‌بان یک اپلیکیشن امن، مدرن و متن‌باز برای احراز هویت دو مرحله‌ای (TOTP) بر پایه فلاتر است که هم به صورت اپلیکیشن موبایل و هم به عنوان افزونه کاملاً آفلاین مرورگر کروم اجرا می‌شود. دارای قابلیت‌هایی چون رمزنگاری سخت‌افزاری محلی، احراز هویت بیومتریک (اثر انگشت و چهره)، اسکنر بارکد با دوربین و آپلود تصویر، تایمر ۳۰ ثانیه‌ای انیمیشنی و معماری تمیز با BLoC.",
+        "tags": [
+          "Flutter",
+          "Bloc",
+          "Clean Architecture",
+          "TOTP / 2FA",
+          "Chrome Extension",
+          "Biometrics"
+        ],
+        "url": "https://github.com/Lilfibonacci/PasBan"
+      },
+      {
+        "id": "mediaflow",
+        "title": "مدیافلو (MediaFlow)",
+        "summary": "اپلیکیشن دانلود سریع و بهینه ویدیو با فلاتر و رابط کاربری مدرن.",
+        "description": "مدیافلو یک اپلیکیشن موبایل سبک، روان و کاربردی برای دانلود ویدیو از یوتیوب با فریم‌ورک فلاتر است. این برنامه با مدیریت وضعیت Provider و کتابخانه Dio برای مدیریت استریم‌های دانلود پیاده‌سازی شده و امکاناتی نظیر مدیریت دانلودها، ذخیره‌سازی محلی فایل‌ها، نمایش زنده پیشرفت و رابط کاربری مینیمال را ارائه می‌دهد.",
+        "tags": [
+          "Flutter",
+          "Provider",
+          "Dio",
+          "Path Provider",
+          "Material 3"
+        ],
+        "url": "https://github.com/Lilfibonacci/mediaFlow"
+      },
+      {
+        "id": "cryptocurrencyprice",
+        "title": "قیمت ارزهای دیجیتال (CryptoPrice)",
+        "summary": "ردیاب لحظه‌ای قیمت کریپتو با پیاده‌سازی معماری تمیز (Clean Architecture).",
+        "description": "اپلیکیشن رصد و نمایش قیمت لحظه‌ای رمزارزها که با هدف پیاده‌سازی اصولی معماری تمیز (Clean Architecture) در فلاتر طراحی شده است. شامل تفکیک کامل لایه‌های Presentation (با BLoC)، لایه Domain (یوزکیس‌ها و موجودیت‌ها) و لایه Data (مخازن داده و ارتباط با API توسط Dio) با رعایت کامل اصول SOLID.",
+        "tags": [
+          "Flutter",
+          "Clean Architecture",
+          "Bloc",
+          "Dio",
+          "REST API"
+        ],
+        "url": "https://github.com/Lilfibonacci/cryptoCurrencyPrice"
+      },
+      {
+        "id": "shopingapp",
+        "title": "اپلیکیشن فروشگاهی (Shopping App)",
+        "summary": "اپلیکیشن فروشگاهی با کاتالوگ محصولات و ذخیره‌سازی آفلاین سبد خرید.",
+        "description": "یک پروژه فروشگاهی توسعه‌یافته با فلاتر جهت پیاده‌سازی جریان خرید فروشگاهی. این برنامه از BLoC برای مدیریت وضعیت، Dio برای دریافت داده‌ها، و Hive به همراه SharedPreferences جهت ذخیره‌سازی و پایداری داده‌های سبد خرید به صورت آفلاین بهره می‌برد.",
+        "tags": [
+          "Flutter",
+          "Bloc",
+          "Hive",
+          "Dio",
+          "SharedPreferences"
+        ],
+        "url": "https://github.com/Lilfibonacci/shopingapp"
+      },
+      {
+        "id": "to-do-app",
+        "title": "اپلیکیشن مدیریت وظایف (To-Do App)",
+        "summary": "مدیریت کارها و یادداشت‌ها با دیتابیس محلی و سریع هایو (Hive).",
+        "description": "اپلیکیشن کاربردی یادداشت و مدیریت تسک‌ها که با پایگاه‌داده محلی Hive در فلاتر پیاده‌سازی شده است. شامل دسته‌بندی موضوعی وظایف، انتخاب زمان و تاریخ، ثبت و ویرایش تسک‌ها، چک‌باکس‌های تعاملی و ذخیره‌سازی آفلاین و آنی بدون نیاز به اینترنت.",
+        "tags": [
+          "Flutter",
+          "Hive",
+          "NoSQL",
+          "Custom Widgets",
+          "Local Storage"
+        ],
+        "url": "https://github.com/Lilfibonacci/to-do-app"
+      }
+    ],
+    "experience": [
+      {
+        "period": "1403 — اکنون",
+        "role": "توسعه‌دهنده فلاتر",
+        "place": "فریلنسر",
+        "detail": "انجام پروژه‌های شخصی و فریلنسری."
+      }
+    ],
+    "education": [
+      {
+        "period": "1401 — 1405",
+        "role": "کارشناسی مهندسی کامپیوتر",
+        "place": "دانشگاه آزاد اسلامی واحد کرمانشاه",
+        "detail": ""
+      }
+    ]
+  }
+}
